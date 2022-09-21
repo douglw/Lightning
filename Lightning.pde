@@ -10,11 +10,11 @@ void setup()
   size(300, 300);
   stroke(#F7EA73);
   strokeWeight(3);
+  noLoop();
   cloud = loadImage("cloud.png");
   cityBG = loadImage("city.png");
   image(cloud, -20, -20);
   image(cityBG,0,0,width,height);
-  noLoop();
 }
 void draw()
 {
