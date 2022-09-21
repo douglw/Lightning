@@ -23,7 +23,7 @@ void setup()
   size(300, 300);
   stroke(#F7EA73);
   strokeWeight(3);
-  frameRate(10);
+  frameRate(60);
   cloud = loadImage("cloud.png");
   cityBG = loadImage("city.png");
   noLoop();
