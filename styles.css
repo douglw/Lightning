@@ -1,8 +1,8 @@
 
 body {
-    background-color: rgb(200,200,200);
+    background-color: rgb(48, 34, 64);
     color: rgb(0,0,0);
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ header {
 }
 
 footer {
-	font-style: italic;
+	font-style: italic, bold;
 	font-size: 90%;
 }
 
