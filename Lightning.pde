@@ -12,6 +12,8 @@ void setup()
   strokeWeight(3);
   cloud = loadImage("cloud.png");
   cityBG = loadImage("city.png");
+  image(cloud, -20, -20);
+  image(cityBG,0,0,width,height);
   noLoop();
 }
 void draw()
@@ -22,7 +24,7 @@ void draw()
   image(cityBG,0,0,width,height);
   while (endY <= 300) {
     stroke(#F7EA73);
-    tint(#6D5071,255);
+    tint(#6D5071,125);
     image(cloud, -20, -20); // I added another one of the image because the lightning keeps overlapping the orignal image
     stroke(#FFF598);
     endX = startX + (int)(Math.random() * 20) - 10;
