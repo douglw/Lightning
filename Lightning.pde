@@ -1,16 +1,3 @@
-/*( void setup()
-{
-  size(300,300);
-}
-void draw()
-{
-
-}
-void mousePressed()
-{
-
-} */
-
 PImage cloud, cityBG; 
 
 int startX = 150;
@@ -23,7 +10,6 @@ void setup()
   size(300, 300);
   stroke(#F7EA73);
   strokeWeight(3);
-  frameRate(60);
   cloud = loadImage("cloud.png");
   cityBG = loadImage("city.png");
   noLoop();
