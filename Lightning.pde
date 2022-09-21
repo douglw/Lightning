@@ -20,11 +20,9 @@ void draw()
 {
   background(#302240, 10);
   cloud.resize(0, 100);
-  tint(255,255);
   image(cityBG,0,0,width,height);
   while (endY <= 300) {
     stroke(#F7EA73);
-    tint(#6D5071,125);
     image(cloud, -20, -20); // I added another one of the image because the lightning keeps overlapping the orignal image
     stroke(#FFF598);
     endX = startX + (int)(Math.random() * 20) - 10;
