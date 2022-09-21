@@ -4,6 +4,7 @@ body {
     color: rgb(0,0,0);
     font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
+    color: white;
 }
 
 #content {
@@ -19,5 +20,6 @@ header {
 footer {
 	font-style: italic, bold;
 	font-size: 90%;
+	color: white;
 }
 
